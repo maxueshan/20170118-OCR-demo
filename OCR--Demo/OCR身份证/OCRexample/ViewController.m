@@ -777,6 +777,7 @@
 #pragma mark - UITextView Delegate
 -(void)textViewDidChange:(UITextView *)textView
 {
+    NSLog(@"textViewDidChange");
     //    textview 改变字体的行间距
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     paragraphStyle.lineSpacing = 10;// 字体的行间距
